@@ -3,7 +3,7 @@ import { Component, Output } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 
 export class AppComponent {
@@ -17,10 +17,6 @@ export class AppComponent {
 
     setTimeout(() => {
       this.toastVisible = false;
-    }, 5000);
-  }
-
-  public closeToast(): void {
-    this.toastVisible = false;
+    }, 9000);
   }
 }
